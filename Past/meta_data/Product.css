@@ -1,0 +1,79 @@
+.cantain{
+    display: flex;
+    justify-content:space-around;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:transparent;
+}
+
+li{
+    display: inline;
+    list-style-type: none;
+    font-size: 25px;
+    padding-top: 9px;
+    margin-top: 7px;
+    padding-top: 0px;
+    margin-bottom: 700px;
+    padding-bottom: 900px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(70, 155, 211);
+    margin-bottom: 700px;
+    padding-bottom: 900px;
+
+}
+
+#one{
+    height: 150px;
+    z-index: 2;
+    position: fixed;
+    margin-left: 200px;
+    margin-right: 400px;
+}
+
+h1{
+    color: rgb(70, 155, 211);
+    height: 50px;
+}
+
+.fl{
+    display: flex;
+    width: 200px;
+    height: 70px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+}
+
+h1{
+    margin-bottom: 700px;
+    margin-top: 0px;
+     padding-top: 0px;
+    padding-bottom: 900px;
+}
+
+
+
+
+
+
+
+.foot{
+  text-align: center;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(70, 155, 211);
+  font-size: 20px;
+}
+
+.socials {
+  margin-top: 0.5rem;
+}

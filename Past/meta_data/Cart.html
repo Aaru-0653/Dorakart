@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doraemon Cart</title>
+    <link rel="stylesheet" href="Cart.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="/meta_img/sune.png" alt="Doraemon" />
+            <h1>DoraKart</h1>
+        </div>
+        <nav>
+            <a href="/index.html" >Home</a>
+            <a href="Product.html">Products</a>
+            <a href="Wish.html">Wishlist</a>
+            <a href="Cart.html" class="active">Cart</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+      </header>
+    <main>
+        <h2>Your Cart 🛒</h2>
+        <p class="info-text">Review your items and proceed to checkout!</p>
+        <section class="cart-items">
+            <div class="cart-card">
+                <button class="remove-btn" title="Remove">❌</button>
+                <img class="cart-img" src="/meta_img/doremon-yellow-tee.jpg" alt="T-Shirt" />
+                <div class="cart-details">
+                    <h3>T-Shirt</h3>
+                    <p class="price">₹399</p>
+                    <div class="quantity">
+                        <button class="qty-btn">-</button>
+                        <span>1</span>
+                        <button class="qty-btn">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-card">
+                <button class="remove-btn" title="Remove">❌</button>
+                <img class="cart-img" src="/meta_img/doraemon_stationery_set_.jpg" alt="Stationery" />
+                <div class="cart-details">
+                    <h3>Stationery</h3>
+                    <p class="price">₹999</p>
+                    <div class="quantity">
+                        <button class="qty-btn">-</button>
+                        <span>1</span>
+                        <button class="qty-btn">+</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cart-summary">
+            <h3>Order Summary</h3>
+            <p>Subtotal: <span class="summary-price">₹1,398</span></p>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </section>
+    </main>
+     <footer class="foot">
+            <p>DoraKart © 2025 | Made with ❤️ by Aaru</p>
+            <div class="socials"> Instagram |  Facebook | linkdin</div>
+        </footer>
+</body>
+</html>

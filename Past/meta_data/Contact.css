@@ -1,0 +1,630 @@
+header.navbar {
+    background:#fff ;
+    color: rgb(248, 145, 163) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    height: 70px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+
+header {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgb(218, 79, 136);
+}
+
+.logo {
+    display: flex;
+    align-items:flex-start;
+    padding-top: 0px;
+    
+}
+
+h1{
+    padding-left: 120px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.logo img {
+     height: 150px;
+     z-index: 2;
+     padding-top: 20px;
+     margin-top: 0px;
+     position: fixed;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+nav a {
+    color: rgb(248, 145, 163) ;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: 900;
+    font-size: 22px;
+    transition: color 0.2s;
+}
+
+nav a.active {
+    color: #ffd600;
+}
+nav a:hover {
+    color: #ffd600;
+    transform: translateY(-3px) scale(1.03);
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:transparent;
+}
+
+
+
+#bg{
+    z-index: 0;
+    height: 480px;
+    margin-left: 50px;
+   
+}
+
+h2 {
+  color: rgb(248, 145, 163);
+  font-size: 50px;
+  margin-top:0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  
+}
+
+pre {
+  color: rgb(248, 145, 163);
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 24px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  
+}
+
+section{
+  display: inline-block;
+  margin-left: 160px;
+  margin-top: 29px;
+
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 160px;
+  margin-left: 100px;
+  height: 400px;
+  box-shadow: deeppink 2px 0px 20px 0px;
+}
+
+.form_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fcf8f8;
+  height: 900px;
+  border: 2px solid rgb(248, 145, 163);
+  border-radius: 20px;
+  box-shadow: 3px 4px 0px 1px #E99F4C;
+}
+
+form{
+  height: 450px;
+  width: 420px;
+}
+
+.title {
+  color:rgb(248, 145, 163);
+  font-weight: 900;
+  font-size: 35px;
+  margin-top: 50px;
+  /* background-color: #ff0000; */
+}
+
+.sub_title {
+  font-weight: 600;
+  /* margin: 5px 0; */
+  color: rgb(248, 145, 163);
+  margin-left: 50px;
+}
+
+.form_group {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin: 10px;
+  margin-bottom: 50px;
+  /* margin-top: 20px; */
+}
+
+.form_style {
+  outline: none;
+  border: 2px solid rgb(248, 145, 163);
+  box-shadow: 3px 4px 0px 1px #E99F4C;
+  width: 290px;
+  padding: 12px 10px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.form_style:hover{
+  transform: translateY(-6px) scale(1);
+}
+
+.form_style:focus, .btn:focus {
+  transform: translateY(4px);
+  box-shadow: 1px 2px 0px 0px #E99F4C;
+  
+}
+
+.button {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 24px;
+  width: 315px;
+  margin-bottom: 25px;
+  margin-left: 29px;
+  font-size: 18px;
+  color: rgb(248, 145, 163);
+  border: 2px solid rgb(248, 145, 163);
+  border-radius: 5px;
+  background-color: transparent;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  overflow: hidden;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: inherit;
+  scale: 0;
+  z-index: -1;
+  background-color: rgb(248, 145, 163);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 2);
+}
+
+.button:hover::before {
+  scale: 5;
+}
+
+.button:hover {
+  color:white;
+  scale: 1.1;
+  box-shadow: 0 0px 20px rgba(248, 145, 163, 0.5);
+}
+
+.button:active {
+  scale: 1;
+  
+}
+
+
+
+
+.link {
+  font-weight: 800;
+  color: #264143;
+  padding: 5px;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top:0px;
+}
+
+
+
+
+.light-button1 button.bt1 {
+  position: relative;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  outline: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+.light-button1 button.bt1 .button-holder1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 5px;
+  color: #0f0f0f;
+  font-weight: 700;
+  transition: 300ms;
+  outline: #0f0f0f 2px solid;
+  outline-offset: 20;
+}
+
+.light-button1 button.bt1 .button-holder1 svg {
+  height: 50px;
+  fill: #0f0f0f;
+  transition: 300ms;
+}
+
+.light-button1 button.bt1 .light-holder1 {
+  position: absolute;
+  height: 200px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.light-button1 button.bt1 .light-holder1 .dot1 {
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.light-button1 button.bt1 .light-holder1 .light1 {
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  clip-path: polygon(50% 0%, 25% 100%, 75% 100%);
+  background: transparent;
+}
+
+.light-button1 button.bt1:hover .button-holder1 svg {
+  fill: rgb(98, 188, 236); 
+}
+
+.light-button1 button.bt1:hover .button-holder1 {
+  color: rgb(126, 198, 236); 
+  outline: rgba(0, 119, 181, 1) 2px solid;
+  outline-offset: 2px;
+   border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 0px 20px rgba(0, 119, 181, 0.5);
+}
+
+.light-button1 button.bt1:hover .light-holder1 .light1 {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgb(127, 199, 238) 0%,
+    rgba(255, 255, 255, 0) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+
+
+
+
+
+.light-button2 button.bt2 {
+  position: relative;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  outline: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.light-button2 button.bt2 .button-holder2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 5px;
+  color: #0f0f0f;
+  font-weight: 700;
+  transition: 300ms;
+  outline: #0f0f0f 2px solid;
+  outline-offset: 20;
+}
+
+.light-button2 button.bt2 .button-holder2 svg {
+  height: 50px;
+  fill: black;
+  transition: 300ms;
+}
+
+.light-button2 button.bt2 .light-holder2 {
+  position: absolute;
+  height: 200px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.light-button2 button.bt2 .light-holder2 .dot2 {
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  background-color:transparent;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.light-button2 button.bt2 .light-holder2 .light2 {
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  clip-path: polygon(50% 0%, 25% 100%, 75% 100%);
+  background: transparent;
+}
+
+.light-button2 button.bt2:hover .button-holder2 svg {
+  fill: rgba(0, 215, 87, 1);
+}
+
+.light-button2 button.bt2:hover .button-holder2 {
+  color: rgba(0, 215, 87, 1);
+  outline: rgba(0, 215, 87, 1) 2px solid;
+  outline-offset: 2px;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 0px 20px rgba(0, 215, 87, 0.5);
+}
+
+.light-button2 button.bt2:hover .light-holder2 .light2 {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 215, 87, 1) 0%,
+    rgba(255, 255, 255, 0) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+
+
+
+
+
+.light-button3 button.bt3 {
+  position: relative;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  outline: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.light-button3 button.bt3 .button-holder3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 5px;
+  color: #0f0f0f;
+  font-weight: 700;
+  transition: 300ms;
+  outline: #0f0f0f 2px solid;
+  outline-offset: 20;
+}
+.light-button3 button.bt3 .button-holder3 svg {
+  height: 50px;
+  fill: transparent;
+  transition: 300ms;
+}
+.light-button3 button.bt3 .light-holder3 {
+  position: absolute;
+  height: 200px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.light-button3 button.bt3 .light-holder3 .dot3 {
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  background-color:transparent;
+  border-radius: 10px;
+  z-index: 2;
+}
+.light-button3 button.bt3 .light-holder3 .light3 {
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  clip-path: polygon(50% 0%, 25% 100%, 75% 100%);
+  background: transparent;
+}
+.light-button3 button.bt3:hover .button-holder3 svg {
+  fill: #ff0000;
+}
+.light-button3 button.bt3:hover .button-holder3 {
+  color: rgba(255, 0, 0, 1);
+  outline: rgba(255, 0, 0, 1) 2px solid;
+  outline-offset: 2px;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 0px 20px rgba(245, 81, 66, 0.5);
+}
+.light-button3 button.bt3:hover .light-holder3 .light3 {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 0, 0, 0.5) 50%,
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+
+.light-button3 button.bt3:hover .button-holder3 svg path {
+  fill: #ff0000;
+}
+
+
+
+
+
+
+.light-button button.bt {
+  position: relative;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  outline: none;
+  background: none;
+  border: none;
+}
+
+.light-button button.bt .button-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 5px;
+  color: black;
+  font-weight: 700;
+  transition: 300ms;
+  outline: #0f0f0f 2px solid;
+  outline-offset: 20;
+}
+
+.light-button button.bt .button-holder svg {
+  height: 50px;
+  fill:black;
+  transition: 300ms;
+}
+
+.light-button button.bt .light-holder {
+  position: absolute;
+  height: 200px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.light-button button.bt .light-holder .dot {
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  background-color:transparent;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.light-button button.bt .light-holder .light {
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  clip-path: polygon(50% 0%, 25% 100%, 75% 100%);
+  background: transparent;
+}
+
+.light-button button.bt:hover .button-holder svg {
+  fill: rgb(66, 81, 245);
+  color: rgb(66, 81, 245);
+}
+
+.light-button button.bt:hover .button-holder {
+  color: rgba(66, 81, 245);
+  outline: rgba(66, 81, 245) 2px solid;
+  outline-offset: 2px;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 0px 20px rgba(66, 81, 245, 0.5);
+
+}
+
+.light-button button.bt:hover .light-holder .light {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(66, 81, 245) 0%,
+    rgba(255, 255, 255, 0) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.socials{
+  display: flex;
+  justify-content:flex-end;
+  gap: 20px;
+  /* background-color: green; */
+  width: 550px;
+  margin-left: 720px;
+}
+
+.foot{
+  text-align: center;
+  height: 240px;
+  /* background-color: rgb(228, 127, 127); */
+  color: rgb(180, 36, 96);
+  margin-top: 10px;
+}
+
+.fop{
+  font-size: 15px;
+}
